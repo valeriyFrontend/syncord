@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@theme {
+  --text-xs: 14px;
+  --text-xs--line-height: 128%;
+  --text-xs--letter-spacing: 1%;
+  --text-md: 16px;
+  --text-md--line-height: 128%;
+  --text-md--letter-spacing: 0%;
+  --text-sm: 20px;
+  --text-sm--line-height: 150%;
+  --text-sm--letter-spacing: 0%;
+  --text-xxl: 40px;
+  --text-xxl--line-height: 128%;
+  --text-xxs: 24px;
+  --text-xxs--line-height: 128%;
+  --text-xxl--letter-spacing: -2%;
+  --text-xl: 28px;
+  --text-xl--line-height: 104%;
+  --text-xl--letter-spacing: -4%;
+  --text-2xl: 38px;
+  --text-2xl--line-height: 104%;
+  --text-2xl--letter-spacing: -4%;
+  --text-6xl: 64px;
+  --text-6xl--line-height: 100%;
+  --text-8xl: 160px;
+  --text-8xl--line-height: 88%;
+  --text-8xl--letter-spacing: -4%;
+
+  --color-text-accent: #89d0ff;
+  --color-text-accent-2: #4894b2;
+  --color-text-accent-3: #8ad0ff;
+  --color-text-accent-4: #2affee;
+  --color-text-accent-5: #4264ca;
+  --color-text-accent-6: #c6e8ff;
+  --color-border-primary: #b4fbed;
+  --color-border-secondary: #253f66;
+  --color-accent-linear: #3f2fdd;
+  --color-accent-linear-2: #25bd91;
+  --color-accent-linear-3: #87c3ff;
+  --color-accent-linear-3-33: #87c3ff33;
+  --color-accent-linear-4: #9efded;
+  --color-accent-linear-4-0: rgba(158, 253, 237, 0);
+  --color-accent-linear-5: #87c3ff00;
+  --color-accent-linear-5-33: #87c3ff33;
+}
+
+:root {
+  --font-dm-sans: "DM Sans", sans-serif;
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #000;
+  color: var(--foreground);
+  font-family: var(--font-dm-sans);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    180deg,
+    var(--color-accent-linear) 0%,
+    var(--color-accent-linear-2) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.border-gradient {
+  position: relative;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.border-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 100px;
+  background: linear-gradient(
+    180deg,
+    var(--color-accent-linear-4) 0%,
+    var(--color-accent-linear-4-0) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 1;
+}

@@ -1,0 +1,34 @@
+import Image from "next/image";
+
+import { Button } from "@/components/Button";
+
+const Main = () => {
+  return (
+    <main className="bg-[url('/img/radial-vignette.svg')] bg-cover bg-center w-full h-full pt-[100px] pb-[8px] justify-center flex">
+      <div className="flex flex-col items-center">
+        <Image
+          src="/img/logo.png"
+          alt="Logo"
+          width={96}
+          height={96}
+          className="hover:rotate-360 transition-transform duration-500"
+        />
+        <h1 className="text-6xl md:text-9xl font-semibold bg-gradient-to-b from-accent-linear to-accent-linear-2 bg-clip-text text-transparent mt-[49px] tracking-[-0.04em]">
+          Syncord
+        </h1>
+        <p className="text-xxs text-center mt-[48px] tracking-[-0.02em] max-w-[384px] text-text-accent px-3">
+          From revolutionizing industries to redefining possibilities,
+          we&apos;re at the forefront of innovation.
+        </p>
+        <div className="flex flex-col md:flex-row gap-[16px] mt-[44px]">
+          <Button>More about</Button>
+          <Button variant="secondary" disabled>
+            Token converter (Soon)
+          </Button>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+export default Main;
