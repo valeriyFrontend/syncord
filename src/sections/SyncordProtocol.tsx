@@ -17,7 +17,7 @@ const SyncordProtocol = () => {
         <Image src="/img/shape.svg" alt="Logo" width={80} height={80} />
       </div>
       <div className="border-border-secondary border-y-[1px] w-full flex justify-center">
-        <p className="relative text-lg tracking-[-0.02em] max-w-[668px] text-text-accent-3 py-[28px] px-[32px] border-border-secondary border-x-[1px]">
+        <div className="relative text-lg tracking-[-0.02em] max-w-[668px] text-text-accent-3 py-[28px] px-[32px] border-border-secondary border-x-[1px]">
           <h3 className="text-text-accent-4">Our Mission</h3>
           <br />
           At Syncord, we are building the first DeFi architecture fully governed
@@ -111,7 +111,7 @@ const SyncordProtocol = () => {
               <Dot key={position} position={position as DotPosition} />
             )
           )}
-        </p>
+        </div>
       </div>
     </section>
   );
