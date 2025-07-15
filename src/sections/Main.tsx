@@ -6,13 +6,7 @@ const Main = () => {
   return (
     <main className="bg-[url('/img/radial-vignette.svg')] bg-cover bg-center w-full h-full pt-[100px] pb-[8px] justify-center flex">
       <div className="flex flex-col items-center">
-        <Image
-          src="/img/logo.png"
-          alt="Logo"
-          width={96}
-          height={96}
-          className="hover:rotate-360 transition-transform duration-500"
-        />
+        <Image src="/img/logo.png" alt="Logo" width={96} height={96} />
         <h1 className="text-6xl md:text-9xl font-semibold bg-gradient-to-b from-accent-linear to-accent-linear-2 bg-clip-text text-transparent mt-[49px] tracking-[-0.04em]">
           Syncord
         </h1>
