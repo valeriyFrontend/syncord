@@ -18,7 +18,7 @@ export default function Home() {
       <Benefits />
       <footer className="py-6 px-3 text-center">
         <p className="text-text-accent-2 text-xs font-semibold">
-          © 2025, All Rights Reserved
+          © 2025 Syncord. All rights reserved.
         </p>
       </footer>
     </div>
