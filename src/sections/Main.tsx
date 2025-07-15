@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "@/components/Button";
 
@@ -15,7 +16,9 @@ const Main = () => {
           we&apos;re at the forefront of innovation.
         </p>
         <div className="flex flex-col md:flex-row gap-[16px] mt-[44px]">
-          <Button>More about</Button>
+          <Link href="#about">
+            <Button>More about</Button>
+          </Link>
           <Button variant="secondary" disabled>
             Token converter (Soon)
           </Button>

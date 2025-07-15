@@ -4,7 +4,7 @@ import { fontClassName } from "../fonts";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" className="scroll-smooth">
       <Head>
         <meta name="description" content="Syncord AI" />
       </Head>

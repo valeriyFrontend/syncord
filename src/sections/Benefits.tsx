@@ -70,7 +70,10 @@ const Benefits = () => {
           </div>
         ))}
       </div>
-      <div className="flex flex-col items-center w-full bg-[url('/img/radial-vignette.svg')] bg-top bg-size-100% bg-no-repeat">
+      <div
+        id="about"
+        className="flex flex-col items-center w-full bg-[url('/img/radial-vignette.svg')] bg-top bg-size-100% bg-no-repeat"
+      >
         <Badge className="mt-30">Advantages</Badge>
         <Title level={2} className="max-w-[668px] mt-6 text-center">
           Frequently Asked Questions
