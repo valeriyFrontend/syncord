@@ -11,9 +11,12 @@ const Main = () => {
         <h1 className="text-6xl md:text-9xl font-semibold bg-gradient-to-b from-accent-linear to-accent-linear-2 bg-clip-text text-transparent mt-[49px] tracking-[-0.04em]">
           Syncord
         </h1>
-        <p className="text-xxs text-center mt-[48px] tracking-[-0.02em] max-w-[384px] text-text-accent px-3">
-          From revolutionizing industries to redefining possibilities,
-          we&apos;re at the forefront of innovation.
+        <p className="text-xxs text-center mt-[48px] tracking-[-0.02em] max-w-[500px] text-text-accent px-3">
+          Decentralized Intelligence. Real Value. Absolute Control.
+          <br />
+          <br />
+          Welcome to Syncord — the platform where DeFi merges with AI governance
+          to define a new standard in decentralized finance.
         </p>
         <div className="flex flex-col md:flex-row gap-[16px] mt-[44px]">
           <Link href="#about">
