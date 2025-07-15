@@ -8,7 +8,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const base =
-    "px-[24px] py-[20px] rounded-[8px] border-[1px] border-border-primary font-medium transition-colors active:outline-none active:ring-2 active:ring-offset-2 gap-[10px] text-md min-w-[238px] font-medium cursor-pointer transform transition-transform duration-200 ease-in-out disabled:cursor-not-allowed";
+    "px-[24px] py-[20px] rounded-[8px] border-[1px] border-border-primary font-medium transition-colors active:outline-none active:ring-2 active:ring-offset-2 gap-[10px] text-md min-w-[238px] font-medium cursor-pointer transform transition-transform duration-200 ease-in-out disabled:cursor-not-allowed disabled:hover:ring-0 disabled:active:ring-offset-0";
   const variants = {
     primary:
       "bg-gradient-to-b from-accent-linear to-accent-linear-2 hover:scale-105 active:scale-95",
