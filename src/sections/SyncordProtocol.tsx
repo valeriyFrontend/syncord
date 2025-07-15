@@ -18,7 +18,7 @@ const SyncordProtocol = () => {
       </div>
       <div className="border-border-secondary border-y-[1px] w-full flex justify-center">
         <div className="relative text-lg tracking-[-0.02em] max-w-[668px] text-text-accent-3 py-[28px] px-[32px] border-border-secondary border-x-[1px]">
-          <h3 className="text-text-accent-4">Our Mission</h3>
+          <h2 className="text-text-accent-4">Our Mission</h2>
           <br />
           At Syncord, we are building the first DeFi architecture fully governed
           by an advanced artificial intelligence substation —{" "}
@@ -36,7 +36,7 @@ const SyncordProtocol = () => {
           and community-validated governance.
           <br />
           <br />
-          <h3 className="text-text-accent-4">What Sets Syncord Apart</h3>
+          <h2 className="text-text-accent-4">What Sets Syncord Apart</h2>
           <br />• AI-Governed Protocols: Syncord Gate, our core functionality,
           is under the direct supervision of{" "}
           <a
@@ -60,7 +60,7 @@ const SyncordProtocol = () => {
           through AI-audited processes.
           <br />
           <br />
-          <h3 className="text-text-accent-4">
+          <h2 className="text-text-accent-4">
             <a
               href="https://www.sync.ai/"
               target="_blank"
@@ -70,7 +70,7 @@ const SyncordProtocol = () => {
               SYNC.AI
             </a>{" "}
             Development Stages
-          </h3>
+          </h2>
           <br />
           The full launch of Syncord Gate is tightly connected with the
           stabilization and learning cycles of our AI Substation. These stages
@@ -87,7 +87,7 @@ const SyncordProtocol = () => {
           over Syncord Gate logic
           <br />
           <br />
-          <h3 className="text-text-accent-4">Roadmap 2025</h3>
+          <h2 className="text-text-accent-4">Roadmap 2025</h2>
           <br />• Transition of legacy tokens (NIMBS, GNIMBS, NFTs) into Syncord
           (Summer 2025) <br />• Launch of Syncord Web Portal and Syncord Gate{" "}
           <br />• SYNC.AI full operational layer deployed (Q3 2025) <br />•
@@ -99,7 +99,7 @@ const SyncordProtocol = () => {
           Structured Bonds and Derivatives Market Opening (Q4 2025)
           <br />
           <br />
-          <h3 className="text-text-accent-4">Explore the Syncord Ecosystem</h3>
+          <h2 className="text-text-accent-4">Explore the Syncord Ecosystem</h2>
           <br />• Decentralized AI Governance <br />• Syncord Gate — Migration
           Portal
           <br />• STAIN Real-Value Model <br />• Tokenized Derivatives and
